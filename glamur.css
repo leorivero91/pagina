@@ -1,0 +1,51 @@
+body {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/346/493/314/cats-cat-wallpaper-preview.jpg);
+  background-color: #93b6ed;
+  background-repeat: repeat;
+}
+
+h1 {
+  color: #2cb493;
+  font-size: 22;
+  background-color: rgb(54, 50, 50);
+}
+.titulosh2 {
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16;
+  font-style: Verdana;
+  background-color: mediumaquamarine;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+ul > li {
+  background-color: seagreen;
+  list-style-type: square;
+}
+ol > li {
+  background-color: lightgreen;
+  text-align: center;
+}
+.dato1 {
+  font-style: italic;
+  color: #820000;
+}
+div {
+  position: relative;
+}
+.otrostitulos {
+  background-color: slategray;
+  color: rgb(133, 82, 73);
+  text-align: justify;
+  opacity: 0.9;
+}
+#parrafo {
+  background-color: rgb(110, 199, 37);
+  color: red;
+  opacity: 0.8;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
