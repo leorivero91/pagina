@@ -3,49 +3,113 @@ body {
   background-color: #93b6ed;
   background-repeat: repeat;
 }
+div {
+  display: inline-block;
+}
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#home {
+  background-color: #25848e;
+  opacity: 0.8;
+}
+#contact {
+  background-color: #25848e;
+  opacity: 0.8;
+}
+#about {
+  background-color: #25848e;
+  opacity: 0.8;
+}
 
 h1 {
   color: #2cb493;
+  text-align: center;
   font-size: 22;
   background-color: rgb(54, 50, 50);
 }
-.titulosh2 {
+.primer {
+  width: 170vh;
+  height: 50vh;
+  margin: 20px;
+  padding: 5px;
+  border: 4px;
+  border-style: ridge;
+  border-color: black;
+}
+#tituloh2 {
   color: blueviolet;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 16;
+  text-align: center;
+  font-size: 1.5em;
   font-style: Verdana;
   background-color: mediumaquamarine;
 }
-p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+#imggato {
+  width: 150px;
+  height: 200px;
+  float: left;
+}
+.primer > ul > li {
+  background-color: #25508e;
+  font-size: 1.3em;
+  padding: 2px;
+}
+span {
+  font-style: italic;
+  color: lightsalmon;
+}
+.segundo {
+  display: inline-flex;
+  padding: 5px;
+  margin: 10px;
+  border: groove;
+  background-color: #5a59ca;
+  opacity: 0.8;
+  width: 100%;
+  height: 65vh;
 }
 
-ul > li {
-  background-color: seagreen;
-  list-style-type: square;
+.cuadizq {
+  flex: left;
+  padding: 2px;
+  width: 40%;
+  border-style: solid;
+  border-color: #5397c5;
+  border: 2px;
 }
-ol > li {
-  background-color: lightgreen;
+.titulosh2 {
+  background-color: slategray;
+  color: rgb(133, 82, 73);
   text-align: center;
 }
-.dato1 {
-  font-style: italic;
-  color: #820000;
+ol > li {
+  font-style: Verdana;
+  font-size: 20px;
+  background-color: #25508e;
+  font-weight: bolder;
 }
-div {
-  position: relative;
+.cuadder {
+  flex: right;
+  width: 60%;
+  padding: 1px;
+  border-style: groove;
+  border-radius: solid;
+  border-color: whitesmoke;
 }
 .otrostitulos {
   background-color: slategray;
-  color: rgb(133, 82, 73);
-  text-align: justify;
-  opacity: 0.9;
+  color: blueviolet;
+  text-align: center;
 }
 #parrafo {
-  background-color: rgb(110, 199, 37);
-  color: red;
+  background-color: #51b6c3;
+  color: white;
   opacity: 0.8;
   text-align: left;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: Sans-sherif;
 }
